@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255; */
+}
+
+
+body {
+  
+}
+
+.app-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  /* box-shadow: 0px 5px 10px rgb(164, 164, 164); */
+  border-color: black;
+  border-width: 2px;
+}
+
+#background-img {
+  width: 90%;
+  height: 100%;
+}
+
+.heading-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 0;
+}
+.heading-div h1 {
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.title-div h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  margin-top: 0;
+}
+
+.title-div p {
+  font-family: "Open Sans", sans-serif;
+  width: 28vw;
+  font-size: 1vw;
+}
+
+#globe-gif {
+  max-width: 10vw;
+  width: 3vw;
+  height: 90%;
+  margin-left: -5px;
+  margin-bottom: 3px;
+}
+.btn{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+} 
+.btn:hover .btn-slide-show-text1 {
+  margin-left: 65px;
+} 
+
+.tickets-btn {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #2480f0, #00dba2, #54a7ed, #54a7ed); 
+  height: 2.8rem;
+  box-shadow: 0px 7px 4px 0px #00000029;
+  margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: large;
+  margin-top: 30px;
+  cursor: pointer;
+  background-size: 300% 100%;
+  border-radius: 30px;
+}
+.tickets-btn-active{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #7e5bd6, #cf639c, #d29c59);
+  height: 10%;
+  box-shadow: 5px 7px 4px 0px #00000026;
+  border-radius: 30px;
+  margin-top: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+
+}
+
+.tickets-btn:hover {
+  background-image: linear-gradient(to right, #2480f0, #00dba2, #54a7ed, #54a7ed); 
+  transition: all 0.5s ease-in-out 0s;
+  background-position: 100% 0px;
+} 
+
+
+@media (max-width: 1024px) {
+  #globe-gif {
+    width: 3rem;
+    height: 10%;
+    margin-bottom: -2px;
+  }
+}
+
+
+/* in between transition, dont remove this media query because its essential for them not to overlap*/
+@media (min-width: 1024px) and (max-width: 1312px) {
+  #background-img {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.20);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.Nav {
+  height: 55px;
+  width: 100%;
+  background-color: #43a6f0;
+  display: flex;
+  justify-content: right;
+  justify-items: center;
+  align-items: center;
+}
+
+.Nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.25rem 20px;
+  transition: background-color 0.3s ease, padding 0s;
+  display: flex;
+  align-items: center;
+  transition: none;
+}
+
+.Nav li {
+  margin-right: -0.25rem;
+  margin-left: -0rem;
+  list-style: none;
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, padding 0s;
+}
+
+.Nav li:hover {
+  color: darkgray;
+  background-color: #238cbf;
+}
+.Nav li.active {
+  background-color: #124b67;
+}
+
+.Nav ul {
+  list-style: none;
+  display: flex;
+  /* gap: 1rem; */
+  align-items: start;
+  height: 100%;
+  margin: 0;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger Button {
+  padding: 1rem;
+}
+
+.hamburger-list {
+  gap: 0.5rem;
+  font-size: 0.8em;
+  width: 100%;
+  padding-inline-start: 0px;
+  list-style: none;
+  background-color: #43a6f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.hamburger-list li {
+  width: 100%;
+  padding-left: 1rem;
+  margin: 0.25rem;
+}
+.hamburger-list li:hover {
+  cursor: pointer;
+}
+
+.hamburger-list .hamburger {
+  display: block;
+}
+
+.navbar-alternate .Nav{
+  background-color: white;
+}
+
+.navbar-alternate a{
+  color: #3779ac; 
+}
+
+.navbar-alternate li.active{
+  background-color: #dfdfdf; 
+}
+.navbar-alternate li:hover{
+  background-color: #dfdfdf; 
+}
+.navbar-alternate .hamburger-list{
+  background-color: white;
+}
+.navbar-alternate .hamburger-list li{
+  background-color: white;
+}
+
+
+/* 855 px */
+@media screen and (max-width: 855px) {
+  /* HAMBURGER */
+  .hamburger {
+    display: block;
+    margin-right: auto;
+  }
+
+  .Nav ul {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 855px) {
+  .hamburger-list {
+    display: none;
+  }
+}
+
