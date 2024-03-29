@@ -1,8 +1,8 @@
-import SeungjuChoi from "../../assets/speaker-imgs/SeungjuChoi.jpg";
-import KanikaMohan from "../../assets/speaker-imgs/KanikaMohan.jpeg";
-import KrissieKnight from "../../assets/speaker-imgs/KrissieKnight.jpeg";
-import EunkyungOh from "../../assets/speaker-imgs/EunkyungOh.jpg";
-import people from "../../assets/sessions-icons/people.png";
+import SeungjuChoi from "../../pages/assets/speaker-imgs/SeungjuChoi.jpg";
+import KanikaMohan from "../../pages/assets/speaker-imgs/KanikaMohan.jpeg";
+import KrissieKnight from "../../pages/assets/speaker-imgs/KrissieKnight.jpeg";
+import EunkyungOh from "../../pages/assets/speaker-imgs/EunkyungOh.jpg";
+import people from "../../pages/assets/sessions-icons/people.png";
 
 const talkSeminarsCards = [
   {

@@ -1,15 +1,15 @@
-import SeungjuChoi from "../../assets/speaker-imgs/SeungjuChoi.jpg";
-import KanikaMohan from "../../assets/speaker-imgs/KanikaMohan.jpeg";
-import KrissieKnight from "../../assets/speaker-imgs/KrissieKnight.jpeg";
-import AlissaSevrioukova from "../../assets/speaker-imgs/AlissaSevrioukova.jpeg";
-import EunkyungOh from "../../assets/speaker-imgs/EunkyungOh.jpg";
-import IdaByrdHill from "../../assets/speaker-imgs/IdaByrdHill.jpeg";
-import breakfast from "../../assets/sessions-icons/breakfast.png";
-import gifts from "../../assets/sessions-icons/gifts.png";
-import lunch from "../../assets/sessions-icons/lunch.png";
-import people from "../../assets/sessions-icons/people.png";
-import welcome from "../../assets/sessions-icons/welcome.png";
-import drinks from "../../assets/sessions-icons/drinks.png";
+import SeungjuChoi from "../../pages/assets/speaker-imgs/SeungjuChoi.jpg";
+import KanikaMohan from "../../pages/assets/speaker-imgs/KanikaMohan.jpeg";
+import KrissieKnight from "../../pages/assets/speaker-imgs/KrissieKnight.jpeg";
+import AlissaSevrioukova from "../../pages/assets/speaker-imgs/AlissaSevrioukova.jpeg";
+import EunkyungOh from "../../pages/assets/speaker-imgs/EunkyungOh.jpg";
+import IdaByrdHill from "../../pages/assets/speaker-imgs/IdaByrdHill.jpeg";
+import breakfast from "../../pages/assets/sessions-icons/breakfast.png";
+import gifts from "../../pages/assets/sessions-icons/gifts.png";
+import lunch from "../../pages/assets/sessions-icons/lunch.png";
+import people from "../../pages/assets/sessions-icons/people.png";
+import welcome from "../../pages/assets/sessions-icons/welcome.png";
+import drinks from "../../pages/assets/sessions-icons/drinks.png";
 
 const agendaCards = [
   {

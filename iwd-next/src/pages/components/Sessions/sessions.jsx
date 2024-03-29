@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import SessionCard from "./session-card";
-import talkSeminarsCards from "./lightning-talks";
-import agendaCards from "./full-agenda";
+import talkSeminarsCards from "../../../data/sessions/lightning-talks";
+import agendaCards from "../../../data/sessions/full-agenda";
 import phone1 from "../../assets/designs/phone-1.png";
 import tab from "../../assets/designs/tab.png";
 import Image from "next/image";
@@ -19,7 +19,7 @@ function Sessions() {
       <div className="header-container">
         <div className="section-title">
           Sessions
-          <Image class="h-[40px] mx-4" src={tab}></Image>
+          <Image className="h-[40px] w-auto mx-4" src={tab}></Image>
         </div>
       </div>
       <div className="tabs-container">
